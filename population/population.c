@@ -53,8 +53,13 @@ int input_end(void)
     return n;
 }
 
-int calculate_population(int start)
+void calculate_population(int start)
 {
     current_size = start;
-    
+
+    int born = start / 3;
+    int die = start / 4;
+
+    current_size += born - die;
+
 }
