@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    char hash = '#';
+    str hash = '#';
 
     int size = get_int("Size of pyramid: ");
 
