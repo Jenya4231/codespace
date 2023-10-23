@@ -3,15 +3,16 @@
 
 int main(void)
 {
-    string hash = "#";
+    char hash = '#';
 
     int size = get_int("Size of pyramid: ");
 
     do
     {
-        printf("%s\n", hash);
-        hash += hash;
+        printf("%c", hash);
         size--;
     }
    while (size > 0);
+
+   printf("\n");
 }
