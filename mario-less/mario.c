@@ -7,12 +7,10 @@ int main(void)
 
     int size = get_int("Size of pyramid: ");
 
-    do
+    for (int n = 0; n < size; n++)
     {
         printf("%c", hash);
-        size--;
     }
-   while (size > 0);
 
    printf("\n");
 }
