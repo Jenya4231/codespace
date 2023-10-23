@@ -36,7 +36,7 @@ int main(void)
 
 
     // TODO: Print number of years
-    printf("%i\n", years_to_reach);
+    printf("Years need: %i\n", years_to_reach);
 }
 
 int input_start(void)
