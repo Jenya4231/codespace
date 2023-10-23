@@ -19,3 +19,7 @@ int main(void)
    printf("\n");
 }
 
+int size_input(void)
+{
+    
+}
