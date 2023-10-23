@@ -9,7 +9,11 @@ int main(void)
 
     for (int n = 0; n < size; n++)
     {
-        printf("%c", hash);
+        for (int i = n; i > 0; i--)
+        {
+            printf("%c", hash);
+        }
+        printf("%c\n", hash);
     }
 
    printf("\n");
