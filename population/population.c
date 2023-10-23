@@ -4,8 +4,9 @@
 const int min_population_size = 9;
 
 int start_size;
-int current_population;
+int current_size;
 int end_size;
+int years_to_reach;
 
 int input_start(void);
 int input_end(void);
@@ -20,6 +21,7 @@ int main(void)
     end_size = input_end();
 
     // TODO: Calculate number of years until we reach threshold
+
 
     // TODO: Print number of years
 }
