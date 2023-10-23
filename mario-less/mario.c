@@ -9,8 +9,9 @@ int main(void)
 
     do
     {
-        printf("%c", hash);
+        printf("%c\n", hash);
         hash += hash;
         size--;
     }
-}   while (size > 0);
+   while (size > 0);
+}
