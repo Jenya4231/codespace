@@ -10,6 +10,7 @@ int years_to_reach;
 
 int input_start(void);
 int input_end(void);
+void calculate_population(int start)
 
 int main(void)
 {
@@ -21,10 +22,16 @@ int main(void)
     end_size = input_end();
 
     // TODO: Calculate number of years until we reach threshold
-    calculate_years();
+    do
+    {
+        calculate_population;
+        year_to_rich++;
+    }
+    while (current_size < end_size)
 
 
     // TODO: Print number of years
+    printi("%i", year_to_reach)
 }
 
 int input_start(void)
