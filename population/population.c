@@ -4,6 +4,7 @@
 const int min_population_size = 9;
 
 int start_size;
+int current_population;
 int end_size;
 
 int input_start(void);
