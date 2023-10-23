@@ -29,6 +29,7 @@ int main(void)
             current_size = start_size;
         }
         calculate_population(current_size);
+        printf("Size of population: %i\n", current_size);
         years_to_reach++;
     }
     while (current_size < end_size);
