@@ -44,7 +44,7 @@ int input_start(void)
     {
         n = get_int("Start population size: ");
     }
-    while (n <= min_population_size);
+    while (n < min_population_size);
 
     return n;
 }
