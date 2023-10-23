@@ -31,7 +31,6 @@ int main(void)
     }
     while (current_size < end_size);
 
-
     // TODO: Print number of years
     printf("Years need: %i\n", years_to_reach);
 }
@@ -70,5 +69,4 @@ void calculate_population(int start)
     int die = start / 4;
 
     current_size += born - die;
-
 }
