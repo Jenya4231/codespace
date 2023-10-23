@@ -22,12 +22,9 @@ int main(void)
     end_size = input_end();
 
     // TODO: Calculate number of years until we reach threshold
+    current_size = start_size;
     do
     {
-        if (current_size == false)
-        {
-            current_size = start_size;
-        }
         calculate_population(current_size);
         printf("Size of population: %i\n", current_size);
         years_to_reach++;
