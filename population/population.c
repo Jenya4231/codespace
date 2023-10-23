@@ -21,6 +21,7 @@ int main(void)
     end_size = input_end();
 
     // TODO: Calculate number of years until we reach threshold
+    calculate_years();
 
 
     // TODO: Print number of years
@@ -50,4 +51,10 @@ int input_end(void)
     while (n <= start_size);
 
     return n;
+}
+
+int calculate_population(int start)
+{
+    current_size = start;
+    
 }
