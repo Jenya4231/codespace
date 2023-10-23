@@ -4,7 +4,7 @@
 const int min_population_size = 9;
 
 int start_size;
-int current_size;
+int current_size = start_size;
 int end_size;
 int years_to_reach;
 
