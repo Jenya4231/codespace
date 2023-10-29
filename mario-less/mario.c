@@ -11,11 +11,21 @@ int main(void)
 
     for (int n = 0; n < size; n++)
     {
-        for (int i = n; i > 0; i--)
+        int j = 1 + n;
+
+        for (int i = 0; i < size; i++)
         {
-            printf("%c", hash);
+            if (size - j == 0)
+            {
+                printf("%c", hash);
+            }
+            else
+            {
+                printf(" ");
+                j++;
+            }
         }
-        printf("%c\n", hash);
+        printf("\n");
     }
 
    printf("\n");
